@@ -1,5 +1,5 @@
 
-
+const apiKey = "your_new_generated_key";
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
@@ -47,5 +47,6 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
+
 
 
